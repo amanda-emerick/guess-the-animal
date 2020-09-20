@@ -15,7 +15,7 @@ Readme Language: <a href="https://github.com/amanda-emerick/guess-the-animal/blo
 
 ## :hatching_chick: Index
 <a name=anchor></a>
-[About](#about) | [Preview](#preview) | [Technologies](#technologies) | [New Features](#new-features) | [How to run](#how-to-run) | [License](#license)
+[About](#about) | [Preview](#preview) | [Technologies](#technologies) | [Features](#new-features) | [How to run](#how-to-run) | [License](#license)
 
 <a id="about"></a>
 ## :beetle: About
