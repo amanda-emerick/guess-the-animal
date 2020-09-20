@@ -9,7 +9,7 @@
 </div>
 <br>
 <div align="center">
-Readme Language: <a href="https://github.com/amanda-emerick/guess-the-animal/blob/master/readme-pt.md">Portuguese</a> | <a href="https://github.com/amanda-emerick/guess-the-animal/blob/master/README.md">English</a>
+Readme Language: <a href="https://github.com/amanda-emerick/guess-the-animal/blob/master/README-pt.md">Portuguese</a> | <a href="https://github.com/amanda-emerick/guess-the-animal/blob/master/README.md">English</a>
 </div>
 <br>
 
@@ -33,8 +33,8 @@ Application built based on the Mario's Game developed by **[Felipe Aguiar](https
 
 <a id="technologies"></a>
 ## :racehorse: Technologies
-* HTML
-* CSS
+* HTML5
+* CSS3
 * Javascript
 
 <a id="new-features"></a>
