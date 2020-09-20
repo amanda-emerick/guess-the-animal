@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FEE566;
+    height: 100vh;
+    width: 100vw;
+}
+
+/***** HOME *****/
+body#homepage div#container {
+    width: 90vw;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+body#homepage div#container img {
+	animation-name: animacao-imagem;
+	animation-duration: 3s;
+	animation-direction: alternate;
+	position: relative;
+}
+
+@-webkit-keyframes animacao-imagem {from {height: 0;} to {height: 60%;}}
+@-moz-keyframes animacao-imagem {from {height: 0;} to {height: 60%;}}
+@-o-keyframes animacao-imagem {from {height: 0;} to {height: 60%;}}
+@keyframes animacao-imagem {from {height: 0;} to {height: 60%;}}
+
+body#homepage div#container a {
+    text-decoration: none;
+}
+
+body#homepage div#container button {
+    display: block;
+    margin-top: 2em;
+    background-color: #77a927;
+    transition: background 0.2s;
+    border-radius: 5px;
+    border: none;
+    padding: 0.9em 5em;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 1.56em;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+body#homepage div#container button:hover {
+    background-color: #9eda3d;
+}
+
+/******** APP *******/
+
+#header-top-bar {
+    background-color: #D4E24D;
+    height: 4em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#score {
+    background-color: #FFFFFF;
+    border-radius: 1.8em;
+    opacity: 0.8;
+    padding: 0.3em 1.8em;
+    margin-left: 1em;
+    height: 2em;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    color: #585f16;
+    font-size: 1.25em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    max-width: 12em;
+}
+
+#score img {
+    margin-right: 0.7em;
+}
+
+#top-bar-text {
+    font-family: 'Rubik', sans-serif;
+    color: #aebe23;
+    font-weight: 500;
+    font-size: 1.5em;
+    margin-right: 1.25em;
+    width: 70%;
+    text-align: right;
+}
+
+#animals-area h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: #585f16;
+}
+
+section#main-area {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1em;
+}
+
+section#main-area div#animals-area {
+    margin-left: 0.6em;
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    align-items: center;
+}
+
+section#main-area div#animals-area div#current-animal {
+    margin-top: 0.6em;
+    padding: 8.5em;
+    height: 16.25em;
+    width: 16.25em;
+    border: 10px solid;
+    border-radius: 10px;
+    border-color: #585f16;
+    background-color: #F3F3F3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section#main-area div#animals-area button#btn-answer {
+    margin-top: 0.6em;
+    background-color: #FFFFFF;
+    opacity: 0.8;
+    transition: opacity 0.2s;
+    border-radius: 5px;
+    border: none;
+    padding: 0.9em 3.5em;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 1.56em;
+    color: #585f16;
+    cursor: pointer;
+}
+
+section#main-area div#animals-area button#btn-answer:hover {
+    opacity: 1;
+}
+
+div#container footer#bottom-footer {
+    background-color: #F3F3F3;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #444444;
+}
+
+div#container footer#bottom-footer div#credits span {
+    vertical-align: sub;
+}
+
+div#container footer#bottom-footer div#social {
+    margin-top: 0.8em;
+}
+
+div#container footer#bottom-footer div#social img {
+    vertical-align: bottom;
+}
+
+div#container footer#bottom-footer div#social a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8em;
+    color: #444444;
+}
+
+@media (max-width: 800px) {
+    #score {
+        min-width: 9em;
+        padding: 0.3em 0.5em;
+        margin-left: 1em;
+        font-size: 1.1em;
+    }
+
+    #top-bar-text {
+        font-size: 1.2em;
+        margin-right: 1em;
+    }
+
+    section#main-area div#animals-area {
+        width: 100%;
+    }
+
+    #game-cover-area {
+        display: none;
+    }
+}
+
+
+
